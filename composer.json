@@ -1,0 +1,23 @@
+{
+    "name": "paulo/php-compose-dio",
+    "description": "Busca de cep online",
+    "type": "composer",
+    "license": "MIT",
+    "autoload": {
+        "psr-0":{
+            "Search":"src/"
+        },
+        "psr-4": {
+            "Paulo\\PhpComposeDio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paulo2991",
+            "email": "paulovaz38034@gmail.com"
+        }
+    ],
+    "require": {
+       "php":">=7.2.0"
+   }
+}
